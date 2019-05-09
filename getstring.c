@@ -4,6 +4,6 @@
 
 int main()
 {
-    string answer = get_string("What is your name?\n");
-    printf("hello %s", answer);
+    int i = get_int("Integer :");
+    printf("hello , %i\n",i);
 }
